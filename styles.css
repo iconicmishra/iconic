@@ -1,0 +1,76 @@
+/* Style for header */
+
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+  }
+  
+  /* Style for carousel */
+  .carousel-item img {
+    max-height: 400px;
+    object-fit:contain;
+  }
+  
+  /* Style for featured recipes section */
+  .card {
+    margin-bottom: 20px;
+    width: 100%; 
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.8rem;
+    border-radius: 5px;
+    
+  }
+
+  
+  
+  /* Style for upcoming events section */
+  .list-group {
+    margin-top: 20px;
+  }
+  
+  .list-group-item {
+    font-size: 1.1rem;
+  }
+  
+  /* Style for footer */
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  
+  .footer h5 {
+    font-size: 1.25rem;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: black;
+    }
+
+    /* Optionally, you can change the color of the icons inside the buttons */
+    .carousel-control-prev-icon::before,
+    .carousel-control-next-icon::before {
+      color: white; /* Change the color to white, or any other color you prefer */
+    }
+  
